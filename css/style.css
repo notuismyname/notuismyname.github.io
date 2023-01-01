@@ -93,6 +93,7 @@ main div.about p {
     color:#fff;
     /* text-indent:30px; */
     width:30%;
+    margin:0 20px;
 }
 main div.about .about-container {
     display: flex;
@@ -255,11 +256,20 @@ main section.social .social-container .social-account.instagram h2 a {
 /* Responsive */
 /* Ukuran Tablet */
 @media screen and (max-width:768px) {
+    nav ul {
+        min-width:400px;
+    }
     main {
         width:100%;
     }
 }
+
+
+/* Ukuran HandPhone */
 @media screen and (max-width:576px) {
+    nav ul {
+        display: none;
+    }
     main {
         width:100%;
     }
@@ -275,5 +285,13 @@ main section.social .social-container .social-account.instagram h2 a {
     main div.about .about-container {
         flex-direction: column;
         align-items: center;
+    }
+    main .fortofolio {
+        width:300px;
+        min-height:200px;
+        margin:10px;
+    }
+    main section.social .social-container .social-account {
+        width:95%;
     }
 }
