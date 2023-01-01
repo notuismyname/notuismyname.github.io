@@ -262,6 +262,9 @@ main section.social .social-container .social-account.instagram h2 a {
     main {
         width:100%;
     }
+    main section.social .social-container .social-account {
+        width:300px;
+    }
 }
 
 
@@ -287,7 +290,7 @@ main section.social .social-container .social-account.instagram h2 a {
         align-items: center;
     }
     main .fortofolio {
-        width:300px;
+        width:90%;
         min-height:200px;
         margin:10px;
     }
