@@ -1,0 +1,279 @@
+body {
+    background-color: #252525;
+    font-family:arial, sans-serif;
+}
+nav {
+    width:100%;
+    background-color:#252525;
+    height:50px;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:3px lime solid;
+    position:fixed;
+    top:0;
+}
+nav .logo {
+    font-family:'sacramento';
+    font-size:30px;
+    color:#858585;
+    cursor: pointer;
+}
+nav .logo:hover {
+    color:inherit;
+}
+nav ul {
+    display:flex;
+    min-width:500px;
+    justify-content: space-evenly;
+}
+nav ul li {
+    color:#858585;
+    cursor: pointer;
+}
+nav ul li:hover {
+    color:inherit;
+}
+main {
+    width:70%;
+    margin:auto;
+}
+main section.profile-section {
+    margin:150px 0;
+}
+main .profile {
+    margin-top:70px;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+}
+main .profile img.profilepict {
+    width:200px;
+    border:5px solid rgb(0, 204, 255);
+    border-radius:50%;
+}
+main .profile .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:200px;
+}
+main .profile h1.name {
+    font-size:52px;
+    background: linear-gradient(90deg ,rgb(0, 255, 76) 10%, rgb(0, 225, 255) 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+main .profile .description ul {
+    display: flex;
+    justify-content: space-around;
+    color:lime;
+}
+main .profile .description ul li span {
+    color:rgb(0, 217, 255);
+}
+main div.about {
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin:100px 0;
+}
+main div.about h2 {
+    width:100px;
+    text-align:center;
+    font-size:30px;
+    color:#fff;
+    border-bottom:2px solid lime;
+    margin-bottom:20px;
+}
+main div.about p {
+    color:#fff;
+    /* text-indent:30px; */
+    width:30%;
+}
+main div.about .about-container {
+    display: flex;
+    justify-content: center;
+}
+main section.fortofolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main section.fortofolio-container .title-head {
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+main section.fortofolio-container .title-head h2 {
+    font-size:30px;
+    color:#fff;
+    border-bottom:2px solid lime;
+    margin-bottom:20px;
+    width:200px;
+    text-align: center;
+}
+main .fortofolio {
+    width:200px;
+    min-height:200px;
+    border:5px solid #fff;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin:10px;
+}
+main .fortofolio img {
+    width:50px;
+}
+main .fortofolio-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width:100%;
+}
+main .title-text {
+    margin:0 10px;
+}
+main .fortofolio a {
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+}
+main .fortofolio h2 {
+    color:white;
+    font-size:13px;
+}
+main .fortofolio .about-fortofolio {
+    width:90%;
+    color:#fff;
+    padding:20px 0;
+}
+main .fortofolio.volume-solving {
+    border:#FB2576 5px solid;
+}
+main .fortofolio.volume-solving h1 a {
+    color:#FB2576;
+}
+main .fortofolio.html-gallery {
+    border:5px solid #12FF06;
+}
+main .fortofolio.html-gallery h1 a {
+    color:#12FF06;
+}
+main .fortofolio.digital-fan {
+    border:5px solid #5CE1E6;
+}
+main .fortofolio.digital-fan h1 a {
+    color:#5CE1E6;
+}
+main .fortofolio.broken-ai {
+    border:5px solid #90278E;
+}
+main .fortofolio.broken-ai h1 a {
+    color:#90278E;
+}
+main .fortofolio.coming-soon {
+    border:5px solid #8FAAAB;
+}
+main .fortofolio.coming-soon h1 a {
+    color:#8FAAAB;
+}
+main .fortofolio.notu-fortofolio {
+    border:5px solid #FFCC00;
+}
+main .fortofolio.notu-fortofolio h1 a {
+    color:#FFCC00;
+}
+main section.social {
+    margin:50px 0;
+}
+main section.social .title-head {
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+main section.social .title-head h2 {
+    font-size:30px;
+    color:#fff;
+    border-bottom:2px solid lime;
+    margin-bottom:20px;
+    width:100px;
+    text-align: center;
+}
+main section.social .social-container {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+main section.social .social-container .social-account {
+    width:400px;
+    height:100px;
+    border:#fff solid 5px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    padding:0 20px;
+    box-sizing: border-box;
+    margin:10px 0;
+}
+main section.social .social-container .social-account img {
+    width:50px;
+}
+main section.social .social-container .social-account h2 a {
+    color:#fff;
+    font-size:30px;
+    margin:0 10px;
+    text-decoration: none;
+}
+main section.social .social-container .social-account.instagram {
+    border:#FB2576 solid 5px;
+}
+main section.social .social-container .social-account.instagram h2 a {
+    color:#FB2576;
+}
+main section.social .social-container .social-account.github {
+    border:#858585 solid 5px;
+}
+main section.social .social-container .social-account.github h2 a {
+    color:#858585;
+}
+main section.social .social-container .social-account.instagram {
+    border:#FB2576 solid 5px;
+}
+main section.social .social-container .social-account.instagram h2 a {
+    color:#FB2576;
+}
+
+
+
+/* Responsive */
+/* Ukuran Tablet */
+@media screen and (max-width:768px) {
+    main {
+        width:100%;
+    }
+}
+@media screen and (max-width:576px) {
+    main {
+        width:100%;
+    }
+    main .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+    main div.about p {
+        width:90%;
+        text-indent:30px;
+        margin:10px 0;
+    }
+    main div.about .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
